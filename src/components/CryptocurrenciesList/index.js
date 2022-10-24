@@ -20,7 +20,7 @@ class CryptocurrenciesList extends Component {
 
     return (
       <div className="cryptocurrencies-list-container">
-        {this.renderCryptocurrenciesHeader()}
+        {/* {this.renderCryptocurrenciesHeader()} */}
         <ul className="cryptocurrencies-list">
           {cryptocurrenciesData.map(eachCryptocurrency => (
             <CryptocurrencyItem
